@@ -1,0 +1,163 @@
+.icone {
+	color: white;
+
+
+}
+.fundo {
+	background: black;
+	padding: 5px;
+}
+
+nav {
+	background: #4F4F4F;
+	text-transform: uppercase;
+	font-size: 20px;
+
+}
+
+
+.logomarca {
+	margin-top: 20px;
+}
+
+body {
+	font-family: Arial, Arial;
+	margin: 0;
+}
+
+header {
+	background: #808080;
+
+}
+
+
+.cycle-slideshow img {
+	margin-top: 10px;
+	width: 100%;
+}
+
+main {
+	width: 1000px;
+	margin: auto;
+
+}
+
+.carros {
+	
+	display: inline-grid;
+	grid-template-columns: 250px 250px 250px 250px;
+
+
+}
+
+.carros .item {
+
+	text-align: center;
+	border: 1px solid #CCC;
+	box-shadow: 1px 0px 20px #CCC
+
+}
+
+.carros a {
+
+}
+
+.carros .item img {
+	height: 200px;
+	width: 90%;
+
+}
+
+.carros .item p {
+	font-weight: 900;
+
+}
+
+.carros .item .valor {
+	color: #F00;
+	font-weight: 300;
+
+}
+
+.item {
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+}
+	.butao {
+		background: #F00;
+		padding: 10px;
+		color: #FFF;
+		text-decoration: none;
+
+	}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	color: #4F4F4F;
+	margin: 30px;
+}
+
+footer {
+	font-family: Arial;
+	font-weight: 900;
+	background: #D3D3D3;
+	text-align: center;
+	color: black;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.menu {
+	border: 1px solid #FFF;
+	color: #FFF;
+	text-decoration: none;
+	float: right;
+	padding: 10px;
+	margin-top: -60px;
+	margin-right: 20px;
+	
+}
+
+@media (max-width: 420px) {
+	
+	.cycle-slideshow, header nav ul {
+		display: none;
+	}
+
+
+	.carros {
+		display: block;
+	}
+
+	body {
+		padding-top: 150px;
+	}
+
+	main {
+		width: 100%;
+		margin: 0;
+	}
+	
+	.menu {
+	
+		color:#FFF;
+		float: right;
+		display: block;
+		font-weight: 900;
+
+	}
+
+	.item img {
+		height: 200px;
+	}
+	footer {
+		width: 100%;
+		position: fixed;
+	}
+
+	
+}
+
+
