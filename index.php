@@ -25,9 +25,11 @@
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
 </head>
+
+<!-- ************************************************************************************************** -->
 <body>
 	<header>
-			
+			<!-- COMEÇO DO HEADER -->
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-3 pt-0 pt-sm-5 text-center text-sm-left">
@@ -46,14 +48,8 @@
 			</div>
 		</div>
 	</div>
-		
 			
-					 
-				
-				
-				
-
-			
+			<!-- COMEÇO DO NAV -->
 				<nav class="navbar-expand-lg navbar-light">
 					      <ul class="navbar-nav justify-content-center">
 					        <li class="nav-item">
@@ -70,19 +66,17 @@
 					  </div>
   					</div>
 				
-		</nav>
-	</header>
-	
-	
-	<div class="cycle-slideshow">
-		<img src="imagens/banner1.jpg" alt="Banner" title="Banner">
-		<img src="imagens/banner2.jpg" alt="Banner">
-		<img src="imagens/banner3.jpg" alt="Banner" title="Banner">
-	</div>
-
+		</nav>		<!-- FIM DO NAV -->
+	</header>				<!-- FIM DO HEADER -->
+				
+				<div class="cycle-slideshow">
+					<img src="imagens/banner1.jpg" alt="Banner" title="Banner">
+						<img src="imagens/banner2.jpg" alt="Banner">
+					<img src="imagens/banner3.jpg" alt="Banner" title="Banner">
+				</div>
 
 	<main>
-	
+	<!--
 		<h1>Nossos Destaques</h1>
 		<div class="carros">
 			<div class="item">
@@ -127,33 +121,49 @@
 			</div>
 		</div>
 	</div>
+	-->
+		<?php
+		//recebe o valor da página (GET)
+		$pagina = $_GET["pagina"] ?? "home";
+
+		//$paginas = home -> paginas/home.php
+		$pagina = "paginas/{$pagina}.php";
+
+		//verificar se a página
+		if ( file_exists($pagina) ) {
+			include $pagina;
+		} else {
+			include "paginas/erro.php";
+		}
+		
+
+		?>
 	</main>
 
+	<!-- INFOOO -->
 		<div class="fundo">
-  <div class="container mt-5">
-
-    <div class="row text-center">
-      <div class="col-sm-4">
-        <i class="fas fa-thumbs-up icone fa-5x"></i>
-        <h4 style="color: white"><center>MELHOR NEGÓCIO</center></h4>
-        <h5 style="color: white">A melhor oferta para comprar e vender seu veículo.</h5>
-      </div>
+  		<div class="container mt-5">
+    			<div class="row text-center">
+      		<div class="col-sm-4">
+        		<i class="fas fa-thumbs-up icone fa-5x"></i>
+        			<h4 style="color: white"><center>MELHOR NEGÓCIO</center></h4>
+        		<h5 style="color: white">A melhor oferta para comprar e vender seu veículo.</h5>
+      		</div>
     
       <div class="col-sm-4 icone">
         <i class="fas fa-street-view icone fa-5x"></i>
-        <h4 style="color: white"><center>CONFIANÇA</center></h4>
+        	<h4 style="color: white"><center>CONFIANÇA</center></h4>
         <h5 style="color: white">Credibilidade conquistada com os diversos anos no mercado automotivo.</h5>
       </div>
       
-      <div class="col-sm-4">
-        <i class="fas fa-lock icone fa-5x"></i>
-        <h4 style="color: white"><center>SEGURANÇA</center></h4>
-        <h5 style="color: white">Veículos de procedência para atestar sua transparência.</h5>
-      </div>
+      		<div class="col-sm-4">
+        		<i class="fas fa-lock icone fa-5x"></i>
+        			<h4 style="color: white"><center>SEGURANÇA</center></h4>
+        		<h5 style="color: white">Veículos de procedência para atestar sua transparência.</h5>
+      		</div>
     </div>
-
   </div>
-</div>
+</div>		<!-- FIM DO INFO -->
 						
 							
 							<script type="text/javascript">
