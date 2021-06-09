@@ -1,8 +1,19 @@
-.icone {
-	color: white;
-
+nav ul {
+	margin-left: 60px;
+}
+.btn-dark {
+	margin-right: 60px;
 
 }
+.simbolos {
+	margin-left: 8px;
+	margin-right: 6px;
+}
+
+.icone {
+	color: white;
+}
+
 .fundo {
 	background: black;
 	padding: 5px;
@@ -12,7 +23,7 @@ nav {
 	background: #4F4F4F;
 	text-transform: uppercase;
 	font-size: 20px;
-
+	padding: 10px;
 }
 
 
@@ -165,5 +176,7 @@ footer {
 	font-size: 1.5em;
 	font-weight: bold;
 }
+
+
 
 

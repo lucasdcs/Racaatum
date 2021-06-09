@@ -53,22 +53,22 @@
 		<div class="fundo">
   		<div class="container mt-5">
     			<div class="row text-center">
-      		<div class="col-sm-4">
+      		<div class="col-sm-4 icone">
         		<i class="fas fa-thumbs-up icone fa-5x"></i>
-        			<h4 style="color: white"><center>MELHOR NEGÓCIO</center></h4>
-        		<h5 style="color: white">A melhor oferta para comprar e vender seu veículo.</h5>
+        			<h4><center>MELHOR NEGÓCIO</center></h4>
+        		<h5>A melhor oferta para comprar e vender seu veículo.</h5>
       		</div>
     
       <div class="col-sm-4 icone">
         <i class="fas fa-street-view icone fa-5x"></i>
-        	<h4 style="color: white"><center>CONFIANÇA</center></h4>
-        <h5 style="color: white">Credibilidade conquistada com os diversos anos no mercado automotivo.</h5>
+        	<h4><center>CONFIANÇA</center></h4>
+        <h5>Credibilidade conquistada com os diversos anos no mercado automotivo.</h5>
       </div>
       
-      		<div class="col-sm-4">
+      		<div class="col-sm-4 icone">
         		<i class="fas fa-lock icone fa-5x"></i>
-        			<h4 style="color: white"><center>SEGURANÇA</center></h4>
-        		<h5 style="color: white">Veículos de procedência para atestar sua transparência.</h5>
+        		<h4><center>SEGURANÇA</center></h4>
+        		<h5>Veículos de procedência para atestar sua transparência.</h5>
       		</div>
     </div>
   </div>

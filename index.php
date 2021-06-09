@@ -58,71 +58,20 @@
 			<!-- COMEÇO DO NAV -->
 				<nav class="navbar-expand-lg navbar-light">
 					      <ul class="navbar-nav justify-content-center">
-					        <li class="nav-item">
-					          <a class="nav-link active" aria-current="page" href="index.php"><i class="fas fa-home"></i>Home</a>
-					        </li>
-					        <li class="nav-item">
-					          <a class="nav-link" href="#"><i class="fas fa-id-card"></i>Contato</a>
-					        </li>
-					        <li class="nav-item">
-					          <a class="nav-link" href="#"><i class="fas fa-question"></i>Fale Conosco</a>
-					        </li>
+					          <a class="btn btn-dark btn-lg" type="button" href=""><i class="fas fa-home"></i>CONTATO</button>
+					      
+					        
+					          <a class="btn btn-dark btn-lg active" href="index.php"><i class="fas fa-id-card"></i>PAGINA INICIAL</button>
+					        
+					        
+					          <a class="btn btn-dark btn-lg" href="index.php?pagina=nossoestoque">NOSSO ESTOQUE</a>
+					        
 					      </ul>
-					    </div>
-					  </div>
-  					</div>
+					    
 				
 		</nav>		<!-- FIM DO NAV -->
 	</header>				<!-- FIM DO HEADER -->
 				
-
-	<div class="">
-	<!--
-		<h1>Nossos Destaques</h1>
-		<div class="carros">
-			<div class="item">
-				<img src="imagens/camaro.jpg" alt="Camaro" title="Camaro">
-				<p>Camaro GTi 2019</p>
-				<p class="valor">R$ 159.900,00</p>
-				<p>
-					<a href="" class="butao">
-					Detalhes
-					</a>
-				</p>
-			</div>
-			<div class="item">
-				<img src="imagens/delrey.jpg" alt="Del Rey" title="Del Rey">
-				<p>Del Rey Ghia 1990</p>
-				<p class="valor">R$ 19.900,00</p>
-				<p>
-					<a href="" class="butao">
-						Detalhes
-					</a>
-				</p>
-			</div>
-			<div class="item">
-				<img src="imagens/mustang.jpg" alt="Mustang March 1" title="Mustang March 1">
-				<p>Mustang March 1</p>
-				<p class="valor">R$ 99.900,00</p>
-				<p>
-					<a href="" class="butao">
-					Detalhes
-					</a>
-				</p>
-			</div>
-			<div class="item">
-				<img src="imagens/opala.jpg" alt="Opala Diplomata " title="Opala Diplomata ">
-				<p>Opala Diplomata 1989</p>
-				<p class="valor">R$ 24.900,00</p>
-				<p>
-					<a href="" class="butao">
-					Detalhes
-					</a>
-				</p>
-			</div>
-		</div>
-	</div>
-	-->
 		<?php
 		//recebe o valor da página (GET)
 		$pagina = $_GET["pagina"] ?? "home";
@@ -140,13 +89,7 @@
 
 		?>
 	</div>
-						
-							<script type="text/javascript">
-								function menu() {
-									$("header nav ul").toggle();
-								}
-							</script>
-
+					
 						<footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
