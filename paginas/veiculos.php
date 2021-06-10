@@ -30,6 +30,9 @@
 	$marca_id = $dados["marca_id"];
 	$cor_id = $dados["cor_id"];
 	$usuario_id = $dados["usuario_id"];
+	$km = $dados["km"];
+	$combustivel_id = $dados["combustivel_id"];
+	$cambio_id = $dados["cambio_id"];
 	$opcionais = $dados["opcionais"];
 	
 	$sql = "SELECT v.veiculo*, m.marca, c.cor FROM veiculo v INNER JOIN marca m ON m.id = v.marca_id INNER JOIN cor.c ON c.id = v.cor_id WHERE v.id limit 1";
@@ -38,10 +41,14 @@
 	$valor = "R$ " . number_format($valor, 2, "," , ".");
 
 ?>
-		
+
+
+
 			<h1><?=$modelo?></h1>
+		
 		<div class="row">
 			<div class="col-12 col-md-4">
+					<a class="image-link" href="veiculos/<?=$fotoDestaque?>" title="<?=$modelo?>">
 					<img src="veiculos/<?=$fotoDestaque?>" alt="<?=$modelo?>" class="w-100">
 				</a>
 			</div>
@@ -58,19 +65,19 @@
               	<i class="fa fa-calendar simbolos"></i> 
               		Ano: <strong><?=$anofabricacao?>/<?=$anomodelo?></strong></li>
               
-              <li class="list-group-item">Câmbio: <strong>MANUAL</strong></li>
+              <li class="list-group-item">Câmbio: <strong><?=$cambio_id?></strong></li>
 
               <li class="list-group-item">
               	<i class="fas fa-gas-pump simbolos"></i>
-              	Combustível: <strong>FLEX</strong></li>
+              	Combustível: <strong><?=$combustivel_id?></strong></li>
               
               <li class="list-group-item">
               	<i class="fas fa-palette simbolos"></i>
-              	Cor: <strong><?=$cor?></strong></li>
+              	Cor: <strong><?=$cor_id?></strong></li>
 
               <li class="list-group-item">
               	<i class="fas fa-tachometer-alt simbolos"></i>
-              	KM: <strong>102.620</strong></li>
+              	KM: <strong><?=$km?></strong></li>
               </ul>
 
            
@@ -84,3 +91,5 @@
       		</div>
 		</div>
 	</div>
+
+	

@@ -13,6 +13,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 	<link rel="stylesheet" type="text/css" href="css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -30,6 +31,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+	<script type="text/javascript" src="js/magnific-popup.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 <!-- ************************************************************************************************** -->
@@ -58,12 +61,8 @@
 			<!-- COMEÇO DO NAV -->
 				<nav class="navbar-expand-lg navbar-light">
 					      <ul class="navbar-nav justify-content-center">
-					          <a class="btn btn-dark btn-lg" type="button" href=""><i class="fas fa-home"></i>CONTATO</button>
-					      
-					        
-					          <a class="btn btn-dark btn-lg active" href="index.php"><i class="fas fa-id-card"></i>PAGINA INICIAL</button>
-					        
-					        
+					          <a class="btn btn-dark btn-lg" type="button" href="index.php?pagina=faleconosco">FALE CONOSCO</button>
+					          <a class="btn btn-dark btn-lg active" href="index.php"><i class="fas fa-home"></i> PAGINA INICIAL</button>
 					          <a class="btn btn-dark btn-lg" href="index.php?pagina=nossoestoque">NOSSO ESTOQUE</a>
 					        
 					      </ul>
@@ -89,8 +88,10 @@
 
 		?>
 	</div>
+
+			
 					
-						<footer class="sticky-footer bg-white">
+						<footer class="sticky-footer">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span>Copyright &copy; Oscarinho Veiculos <?=date("Y")?></span>
@@ -98,6 +99,6 @@
                 </div>
             </footer>
             
-		
+			
 </body>
 </html>
