@@ -49,11 +49,11 @@
             <div class="col-12 col-sm-6 text-center pt-0 pb-0 logomarca">
               <a href="index.php"><img class="img-fluid" src="imagens/logomarca.png" title="Oscarinho" alt="Oscarinho"/></a>
             </div>
-            <div class="col-12 col-sm-3 pt-0 text-center text-sm-right">
+            <div class="col-12 col-sm-3 pt-0 pt-sm-5 text-center text-sm-right">
                 <strong class="text-uppercase"><i class="fa fa-phone-square"></i> Central de Atendimento</strong><br/>
-                <p class="inline"><i class="fab fa-whatsapp-square"></i>(44) 0000-0000</p>
-                <p class="inline"><i class="fab fa-whatsapp-square"></i>(44) 0000-0000</p>
-				<p class="inline"><i class="fab fa-whatsapp-square"></i>(44) 0000-0000</p>
+                <p class="inline text-center"><i class="fab fa-whatsapp-square"></i>(44) 3622-2500</p>
+                <p class="inline text-center"><i class="fab fa-whatsapp-square"></i>(44) 9 9734-0742</p>
+								<p class="inline text-center"><i class="fab fa-whatsapp-square"></i>(44) 9 9704-5569</p>
 			</div>
 		</div>
 	</div>

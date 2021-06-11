@@ -35,7 +35,7 @@
 
 						echo"<div class='col-12 col-md-3 text-center w-100'>
 										<img src='veiculos/{$fotoDestaque}' alt='{$modelo}' class='img-thumbnail'>
-										<p>{$modelo}</p>
+										<span class='negrito'>{$modelo}</span>
 										<p class='valor'>{$valor}</p>
 										<p><a href='index.php?pagina=veiculos&id={$id}' class='btn btn-danger btn-lg w-100'>Detalhes</a>
 										</p>
@@ -79,9 +79,9 @@
 				<div class="col-12 text-center">
 					<img class="mt-3 mb-3 img-fluid" style="max-height: 130px;" src="imagens/logomarca.png" 
 					class="img-fluid" title="oscarrinho" alt="Oscarrinho Veiculos"/><br/>
-					AV. TIRADENTES, 3233 CENTRO<br/>
-					87507.267 - UMUARAMA/PARANÁ<br/>
-					<strong><i class="fa fa-phone"></i> (44) 0000-0000</strong><br/><br/>
+					R. Des. Antônio Ferreira da Costa, 2-196 - Zona I<br/>
+					87501-200 - UMUARAMA/PARANÁ<br/>
+					<strong><i class="fa fa-phone"></i> (44) 3622-2500</strong><br/><br/>
 </div>
 </div>
 			

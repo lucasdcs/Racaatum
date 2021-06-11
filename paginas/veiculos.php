@@ -56,9 +56,11 @@
 		<div class="col-12 col-md-8">
          <div class="text-center mb-3">
             
+            <div class="valor1">
             <div class="alert alert-danger fs5" role="alert">
   				<?=$valor?></div>
           </div>
+        </div>
 
             <ul class="list-group">
               <li class="list-group-item">

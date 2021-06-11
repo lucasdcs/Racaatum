@@ -77,7 +77,7 @@
 
 						echo"<div class='col-12 col-md-3 text-center w-100'>
 										<img src='veiculos/{$fotoDestaque}' alt='{$modelo}' class='img-thumbnail'>
-										<p>{$modelo}</p>
+										<span class='negrito'>{$modelo}</span>
 										<p class='valor'>{$valor}</p>
 										<p><a href='index.php?pagina=veiculos&id={$id}' class='btn btn-danger btn-lg w-100'>Detalhes</a>
 										</p>

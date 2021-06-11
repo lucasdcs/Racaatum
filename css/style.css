@@ -1,3 +1,5 @@
+
+
 nav ul {
 	margin-left: 60px;
 }
@@ -64,6 +66,13 @@ footer {
 	font-weight: bold;
 }
 
+.negrito { 
+	font-weight: bold;
+}
+
+.valor1 {
+	font-size: 30px;
+}
 
 
 
